@@ -11,6 +11,14 @@ body
 
 
 .row {width: 100%;}
+@media (max-width: 767px)
+{
+    div 
+    {
+        border: 2px solid black;
+    }
+}
+
 /* desktop window */
 @media (min-width: 992px) 
 {   
@@ -64,10 +72,12 @@ body
 {
     position: absolute;
     background-color: blue;
-    width: 30%;
+    border: 1px solid black;
+    text-align: center;
+    width: 150px;
     height: 30px;
-    right: 0;
-    top: 0;
+    right: -1;
+    top: -1;
 }
 .relative-pos
 {
@@ -76,4 +86,17 @@ body
 div 
 {
     background-color: gray;
+}
+.chicken
+{
+    background-color: #E5D198;
+}
+.beef
+{
+    background-color: #C14543;   
+    color: white;
+}
+.sushi
+{
+    background-color: #D59898;   
 }
