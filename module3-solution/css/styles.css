@@ -1,0 +1,31 @@
+body
+{
+    background-color: cyan;
+}
+
+#navbar-header-title
+{
+    font-weight: 600;
+}
+.section-title
+{
+    position: absolute;
+    background-color: blue;
+    border: 1px solid black;
+    text-align: center;
+    width: 150px;
+    height: 30px;
+    right: -1;
+    top: -1;
+}
+
+.box-tile 
+{ 
+    position: relative;
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+    width: 95%;
+    height: 1000px;
+    margin: 10px;
+    padding: 10px;
+}
